@@ -1,6 +1,6 @@
 import './Card.css';
 
-function Card({className, children}){
+const Card = ({className, children}) => {
   const classes = 'card ' + className;
   return (
     <div className={classes}>
